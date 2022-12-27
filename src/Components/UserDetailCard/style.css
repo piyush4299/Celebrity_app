@@ -1,0 +1,28 @@
+.UserDetailCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.UserDetailCard__trivialDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.UserDetailCard__trivialDetails > div,
+.UserDetailCard__userDescription > div {
+  text-align: left;
+}
+
+.UserDetailCard__detailheading {
+  color: gray;
+}
+
+.UserDetailCard__cardActions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.UserDetailCard__cardActions > span {
+  margin: 0 0.5rem;
+}
